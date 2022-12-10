@@ -6,7 +6,7 @@ warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Lendo o arquivo como um dataframe pandas.
 
-df = pd.read_csv("primeiro_teste-99-itens.csv", sep=";")
+df = pd.read_csv("winequality-red.csv", sep=";")
 
 df.columns = ["Acidez Fixa", "Acidez Volátil", "Ácido Cítrico",
               "Açúcar Residual", "Cloretos", "Dióxido de Enxofre Livre",
